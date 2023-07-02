@@ -1,13 +1,16 @@
-<h1>Professor Crato</h1>
+<h1>Sistema Professor Crato - Módulo Backend</h1>
 
-<h2>Um sistema open source para auxiliar atividades dos professores do IFCE Campus Crato</h2>
+<h2>Um sistema para auxiliar atividades dos professores do IFCE Campus Crato. O sistema possui funcionalidades 
+básicas ligadas à informações e professores e laboratórios. Também possui o objetivo didático, servindo como 
+sistema de exemplo para aulas de programação de aplicações web e mobile.
+</h2>
 
 <h3>Funcionalidades:</h3>
 
 <table>
-    <th>
-        <td>Endpoint</td> <td>Descrição</td>
-    </th>
+    <tr>
+        <th>Endpoint</th> <th>Descrição</th>
+    </tr>
     <tr>
         <td>/professor/todos</td> <td>Retorna a lista de todos os professores</td>
     </tr>
