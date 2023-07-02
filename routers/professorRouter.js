@@ -1,3 +1,4 @@
+//Imports gerais
 const professorRouter = require('express').Router()
 const mongoose = require('mongoose')
 const professor = require('../models/professorModel')
