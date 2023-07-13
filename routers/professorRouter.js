@@ -7,7 +7,7 @@ const professor = require('../models/professorModel')
 professorRouter.get('/professor/todos', async (req, res) => {
     try {
         await mongoose.connect(process.env.DB_STR_CON)
-        const professoresBuscados = professor.find()
+        const professoresBuscados = await professor.find()
         res.json({professores: professoresBuscados})
     } catch (error) {
         res.json({message: 'Erro durante a consulta'})
